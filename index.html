@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <title>Quiz</title>
+</head>
+
+<body>
+  <div class="intro py-3 bg-warning text-center">
+    <div class="container">
+      <h2 class="text-success display-3 my-4">Quiz</h2>
+    </div>
+  </div>
+
+  <div class="final-score-container py-4 d-none bg-primary text-center">
+    <div class="container lead">
+      <p class="text-white">Você acertou
+        <span class="text-white display-4 p-3">
+          0%
+        </span> do quiz!
+      </p>
+    </div>
+  </div>
+
+  <div class="quiz py-4 bg-success">
+    <div class="container">
+      <h2 class="my-5 text-white">Quiz de perguntas sobre a copa do mundo</h2>
+
+      <form class="quiz-form text-light">
+        <div class="my-5">
+          <p class="lead font-weight-normal">1. Antes de Brasil 1x7 Alemanha, qual foi a última semifinal que o Brasil
+            jogou em Mundiais?</p>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="A" checked>
+              Brasil 2x1 Itália em 1978
+            </label>
+          </div>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="B">
+              Brasil 0x1 França em 2006
+            </label>
+          </div>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="C">
+              Brasil 1x2 Holanda em 2010
+            </label>
+          </div>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="D">
+              Brasil 2x1 Turquia em 2002
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">2. Onde Será a Próxima Copa do Mundo? (2022)</p>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="A" checked>
+              Brasil
+            </label>
+          </div>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="B">
+              Alemanha
+            </label>
+          </div>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="C">
+              Catar
+            </label>
+          </div>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="D">
+              Argentina
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">3. Qual desses a baixo foi o mascote da copa de 2014?</p>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="A" checked>
+              Onça Pintada
+            </label>
+          </div>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="B">
+              Tatu Bola
+            </label>
+          </div>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="C">
+              Arara
+            </label>
+          </div>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="D">
+              Saci pererê
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">4. Qual o maior campeão da Copa do Mundo?</p>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="A" checked>
+              Alemanha
+            </label>
+          </div>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="B">
+              Brasil
+            </label>
+          </div>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="C">
+              Itália
+            </label>
+          </div>
+          <div class="form-check my-2 text-white">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="D">
+              Argentina
+            </label>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <button class="btn bg-primary text-light">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
